@@ -27,8 +27,6 @@
 
 # media_sm6150_version_prop - to choose target version specific media_codecs.xml
 # media_sdmmagpie_version_prop - to choose target version specific media_codecs.xml
-allow qti_init_shell {
-    vendor_media_sm6150_version_prop
-    vendor_media_sdmmagpie_version_prop
-    vendor_chre_enabled_prop
-}:property_service set;
+set_prop(qti_init_shell, vendor_media_sm6150_version_prop)
+set_prop(qti_init_shell, vendor_media_sdmmagpie_version_prop)
+set_prop(qti_init_shell, vendor_chre_enabled_prop)
