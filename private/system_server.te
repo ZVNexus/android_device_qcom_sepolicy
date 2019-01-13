@@ -47,3 +47,5 @@ binder_call(system_server,qvrd);
 
 #Allow system_server to read, open and getattr vendor time NTP prop
 get_prop(system_server, vendor_time_ntp_prop)
+
+set_prop(system_server, qemu_hw_mainkeys)

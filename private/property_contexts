@@ -40,3 +40,4 @@ vendor.perf.workloadclassifier.enable    u:object_r:vendor_wlc_prop:s0
 persist.vendor.build.date.utc    u:object_r:vendor_wlc_prop:s0
 #vendor specified NTP related (ex., alternative server(s), etc.)
 persist.vendor.ntp.        u:object_r:vendor_time_ntp_prop:s0
+qemu.hw.mainkeys           u:object_r:qemu_hw_mainkeys:s0
